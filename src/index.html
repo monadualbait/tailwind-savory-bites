@@ -1,0 +1,113 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Savory Bites</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="text-gray-600 font-body">
+    <!--content wrapper-->
+    <div>
+      <!-- navbar -->
+      <div>
+        <nav>
+          <div>
+            <h1 class="text-3xl font-bold text-primary-200">
+              <a href="/">Savory Bites</a>
+            </h1>
+          </div>
+          <ul>
+            <li>
+              <a href="#">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- navbar end -->
+      <main class="px-16 py-6 bg-gray-100">
+        <div class="flex justify-center md:justify-end">
+          <a class="text-primary-100" href="#">Login</a>
+          <a class="text-primary-100 ml-2" href="#">Sign up</a>
+        </div>
+
+        <header>
+          <h2 class="text-5xl font-bold text-secondary-200">Recipes</h2>
+          <h3>For Chefs</h3>
+        </header>
+
+        <div>
+          <h4
+            class="text-lg text-secondary-100 font-bold mt-12 pb-2 border-b border-gray-200"
+          >
+            Latest Recipes
+          </h4>
+
+          <div class="grid grid-cols-3">
+            <!--card-->
+            <div class="card">
+              <img src="/images/stew.jpg" alt="stew" />
+              <div class="p-4">
+                <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="block text-gray-500 text-sm">Recipe by Alex</span>
+              </div>
+              <div>
+                <span class="badge">25 mins</span>
+              </div>
+            </div>
+            <!-- Close card div -->
+
+            <!--card-->
+            <div class="card">
+              <img src="/images/noodles.jpg" alt="noodles" />
+              <div class="p-4">
+                <span class="font-bold">Veg Noodles</span>
+                <span class="block text-gray-500 text-sm">Recipe by Alex</span>
+              </div>
+              <div>
+                <span class="badge">15 mins</span>
+              </div>
+            </div>
+            <!-- Close card div -->
+
+            <!--card-->
+            <div class="card">
+              <img src="/images/curry.jpg" alt="curry" />
+              <div class="p-4">
+                <span class="font-bold">Tofu Curry</span>
+                <span class="block text-gray-500 text-sm">Recipe by Alex</span>
+              </div>
+              <div>
+                <span class="badge">30 mins</span>
+              </div>
+            </div>
+            <!-- Close card div -->
+          </div>
+          <!-- Close grid div -->
+          <h4
+            class="text-lg text-secondary-100 font-bold mt-12 pb-2 border-b border-gray-200"
+          >
+            Most Popular
+          </h4>
+          <div class="mt-8">
+            <!--card-->
+          </div>
+          <div class="flex justify-center">
+            <div class="bg-secondary-100 text-white">Load more</div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
